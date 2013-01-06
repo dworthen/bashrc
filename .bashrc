@@ -46,7 +46,7 @@ parse_git_branch() {
 }
 
 print_before_prompt() {
-  printf "\n $txtylw>>> $txtred%s: $bldblu%s $txtwht%s \n$txtrst" "$USER" "$PWD" "$(parse_git_branch)"
+  printf "\n$txtylw>>> $txtred%s: $bldblu%s $txtwht%s \n$txtrst" "$USER" "$PWD" "$(parse_git_branch)"
 }
 
 
